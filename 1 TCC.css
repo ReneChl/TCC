@@ -227,6 +227,7 @@ h4 {
     line-height: 1.8;  
    align-items: center;
    text-align: center;
+   
      
 }
 
@@ -246,12 +247,16 @@ h4 {
     border-radius: 0.5rem;
      border: 1px solid white;
      
+    
+     
 }
 
 .btn:hover {
     background-color: #a8bdb1;
     border-radius: 0.7rem;
     color: #000;
+    position: fixed; /* Fixa o botão na tela */
+
 
 
 }
@@ -371,6 +376,7 @@ h1 {
     border-radius: 0.7rem;
     color: #000;
     display: flex;
+    
 
 
 }
@@ -382,7 +388,7 @@ h1 {
     font-size: 50px;
     border-right: 2px solid rgba(17, 17, 16, 0.555);
     white-space: nowrap;/*Espaço em branco ou espaço vazio*/
-    overflow: hidden;/*transbordamento, excesso, extravasamento, ou inundação*/
+    overflow: hidden;/*transbordamento, excesso, extravasamento, ou inundação
     
 }
 
