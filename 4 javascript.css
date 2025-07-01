@@ -9,65 +9,54 @@ body {
     height: 100vh;
 }
 
-.carossel {
+*{
+    margin: 0;
     padding: 0;
-
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
- #caixa-1 {
-    background-image: url(imagem/imagens/pele/);
 
- }
-#caixa-2 {
-    background-image: url(imagem/imagens/recepção/);
+
+/*Wsrilizando a SECTION*/
+.carrousel {
+    height: 35rem;/*altura da sessão*/
+    position: relative;/*aqui estamos chamando uma das classes*/
+}
+
+/*estelizando das caixas (div) que guerdam as imagens*/
+.carrousel-slide { /*aqui estamos chamando uma das clases*/
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-text {
+    position: absolute;/*posiciona o elemento de forma abdoluta dentro do container pai com position: reçative*/
+    top:50%;/**/
+    left: 50%;
+    transform: translate(-50%, -50%);/*centraliza o elemento axatamente no meio do container (corrige o deslocamento)*/
+    color: #fff;
+    text-align: center;
+    z-index: 10;
     
- }
- #caixa-3 {
-    background-image: url(imagem/imagens/massagem/);
-    
- }
-
-.typing {
-
-    font-size: 28px;
-    border-right: 2px solid #000000;
-    white-space: nowrap;  /**/
-    overflow: hidden;  /**/
-
-}
-/*responcivel*/
-@media (max-width: 991px) {
-    html {
-        font-size: 55%;
-    }
-
-    header {
-        padding: 1.5rem 2rem;
-    }
-}
-
-section {
-    padding: 2rem;
-}
-
-@media (max-width: 768px) {
-    /*colocar código para esconder o menu*/
-    .ul-header {
-        display: none;
-    }
+    background-color: #011a0f6c;
+    padding: 0.5rem;
+    border-radius: 20px; /*aumentei eu*/
     
 }
 
-@media(max-width: 168px)  {
-    html {
-        font-size: 30%;
 
-    }
+
+.caixa-01 {
+    background-image: url(img/1pele.png);
 }
 
-@media(max-width: 168px)  {
-    main {
-        font-size: 25%;
+.caixa-02 {
+    background-image: url(img/3\ pele.jpg);
+}
 
-    }
+.caixa-03 {
+    background-image: url(img/4\ pele.jpg);
+    background-size: cover; /**/
+    background-position: center;
 }

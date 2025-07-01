@@ -168,6 +168,15 @@ color: #3d3d3d;
 
 /*label*/
 
+.carrosel {
+    /* background-color: #25d366; */
+    padding: 20rem;
+}
+
+   
+
+/*fim .carrousel*/
+
 .contato {
     background-position: center;
     background-color: grey;
