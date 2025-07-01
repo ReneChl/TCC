@@ -327,6 +327,9 @@ h1 {
     /* define o tamanho flexivel do elemento: base 45rem, podendo crescer ou encolher, ou seja,
     faz com que passa ser adaptável para telas grandes ou pequenas*/
 
+
+
+
 .container-3 {
    background-image: url(imagem/imagens/recepção/recepção3.jpg);
   position: relative;
@@ -337,6 +340,9 @@ h1 {
     background-position: center;
     /*centraliza a imagem*/
     flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
  
    
 }
@@ -344,6 +350,7 @@ h1 {
 .div-box3 {
    text-align: left;
   margin-top: 70%;
+  
 }
 
 
@@ -355,6 +362,7 @@ h1 {
     color: #fff;
     border-radius: 0.5rem;
      border: 1px solid white;
+    
 
 }
 
@@ -362,9 +370,23 @@ h1 {
     background-color: #a8bdb1;
     border-radius: 0.7rem;
     color: #000;
+    display: flex;
 
 
 }
+
+
+/*digitacão RENE*/
+
+.typing {
+    font-size: 40px;
+    border-right: 2px solid blue;
+    white-space: nowrap;/*Espaço em branco ou espaço vazio*/
+    overflow: hidden;/*transbordamento, excesso, extravasamento, ou inundação*/
+    
+}
+
+
 .bem-vindo {  
   margin: 5rem;
    font-size: 3rem;
@@ -373,6 +395,11 @@ h1 {
    font-weight: lighter;
     /* peso da fonte mais leve*/
 }
+
+
+
+
+
 
 
 
