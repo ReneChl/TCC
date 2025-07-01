@@ -72,9 +72,6 @@ const options = {
     // lista de frases que serão exibidas umas aoos outras
     strings: [
         "Bem-vindo ao ESTÉTICA AVANÇADA BE YOU",
-        "Sua pele merece o melhor. Descubra a beleza que vem do cuidado!",
-        "Brilhe com confiança: cuide do seu rosto com quem entende de beleza.",
-        "Estética facial de verdade: qualidade, resultado e autoestima elevada!",
         "Porque seu rosto é seu cartão de visita.",
         "Tratamentos que transformam. Produtos que realçam.",
         "Catastre-se aqui!"
