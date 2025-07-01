@@ -169,6 +169,56 @@ h4 {
     /* mudar a cor do icone ao passar o mause*/
 }
 
+
+/*INICIO DE CARROSEL*/
+
+
+.caixa-01 {
+    background-image: url(imagem/imagens/1Rpele.png);
+}
+
+.caixa-02 {
+    background-image: url(imagem/imagens/2R\ pele.jpg);
+}
+
+.caixa-03 {
+    background-image: url(imagem/imagens/3R\ pele.jpg);
+}
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+
+/*estilizando a section*/
+.swiper {
+    height: 50rem; /*altura da sessão*/
+    position: relative;/*posição relativa em relaçao a viewport(tela)*/
+}
+
+.carousel-text {
+    position: absolute;/*posiciona o elemento de forma  absoluta dentro do container pai com position : relative*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);/*centraliza o elemento exatamente no meio do container()*/
+    color: #f9ffff;
+    text-align: center;
+    z-index: 10;
+    background-color: #11111144;
+    padding: 1.3rem;
+}
+
+.carousel-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.carousel-text p {
+    font-size: 1.25rem;
+}
+
+/*FIM CARROSEL*/
+
 .container-1 {
     background-image: url(imagem/imagens/pele/pele.jpg);
     background-size: cover;
@@ -179,6 +229,11 @@ h4 {
    text-align: center;
      
 }
+
+
+
+
+
 
 
 
